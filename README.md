@@ -23,5 +23,10 @@ inspired by [Python Professional Programming 2nd edition](http://www.amazon.co.j
   (.venv)$ pip install -r requirements.txt
 ```
 
+### Uploading PyPI
+```sh
+  $ python setup.py register
+```
+
 ### Version
 1.0.0
