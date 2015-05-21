@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+
 setup(
   name='guestbook',
   version='1.0.0',
@@ -7,4 +8,8 @@ setup(
   install_requires=[
     'Flask',
   ],
+  entry_points="""
+    [console_scripts]
+    guestbook = guestbook:main
+  """,
 )
