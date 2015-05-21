@@ -29,5 +29,11 @@ inspired by [Python Professional Programming 2nd edition](http://www.amazon.co.j
   $ python setup.py sdist upload
 ```
 
+### Alias
+```sh
+  $ python setup.py alias release register sdist upload
+  $ python setup.py release # uploading with just one arg!
+```
+
 ### Version
 1.0.0
