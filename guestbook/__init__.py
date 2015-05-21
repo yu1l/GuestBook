@@ -96,6 +96,10 @@ def datetime_fmt_filter(dt):
     return dt.strftime('%Y%m%d %H:%M:%S')
 
 
+def main():
+    application.run('127.0.0.1', 8000)
+
+
 if __name__ == "__main__":
     # Execute with http://127.0.0.1:8000
     application.run('127.0.0.1', 8000, debug=True)
