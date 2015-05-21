@@ -80,6 +80,22 @@ def post():
     return redirect('/')
 
 
+@application.template_filter('nl2br')
+def nl2br_filter(s):
+    """Replace newline to <br />
+    """
+
+    return escape(s).replace('\n', Markup('<br />'))
+
+
+@application.template_filter('datetime_fmt')
+def datetime_fmt_filter(dt):
+    """Improve readibility of datetime object
+    """
+
+    return dt.strftime('%Y%m%d %H:%M:%S')
+
+
 if __name__ == "__main__":
     # Execute with http://127.0.0.1:8000
     application.run('127.0.0.1', 8000, debug=True)
