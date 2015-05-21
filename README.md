@@ -14,6 +14,13 @@ inspired by [Python Professional Programming 2nd edition](http://www.amazon.co.j
   (.venv)$ pip install .
   (.venv)$ guestbook
   * Running on http://127.0.0.1:8000
+  (.venv)$ deactivate # exit virtualenv
+```
+
+### Updating Packages
+```sh
+  (.venv)$ virtualenv --clear .venv
+  (.venv)$ pip install -r requirements.txt
 ```
 
 ### Version
