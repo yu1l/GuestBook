@@ -1,5 +1,6 @@
 LICENSE
 MANIFEST.in
+setup.py
 guestbook/__init__.py
 guestbook.egg-info/PKG-INFO
 guestbook.egg-info/SOURCES.txt
