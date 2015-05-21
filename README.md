@@ -26,6 +26,7 @@ inspired by [Python Professional Programming 2nd edition](http://www.amazon.co.j
 ### Uploading PyPI
 ```sh
   $ python setup.py register
+  $ python setup.py sdist upload
 ```
 
 ### Version
