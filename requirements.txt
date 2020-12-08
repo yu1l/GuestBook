@@ -1,4 +1,4 @@
-Flask==0.10.1
+Flask==1.0
 -e git+https://github.com/yhoshino11/GuestBook.git@cf672f16f8f1744921d0a7c56460ee66924c1eee#egg=guestbook-master
 itsdangerous==0.24
 Jinja2==2.7.3
